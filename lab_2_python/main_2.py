@@ -13,20 +13,24 @@ for i in range(k):
     line[y].append(x)
 heap = []
 b = [False] * n
-b[0] = True
 heapq.heappush(heap, 0)
 ans = -1
 while len(heap) != 0:
     z = heapq.heappop(heap)
-    v = z % 100
     c = z // 100
+    v = z % 100
+    if b[v] == True:
+        continue
+    b[v] = True
     for u in line[v]:
         if not b[u]:
             heapq.heappush(heap, (c + p[v]) * 100 + u)
-            b[u] = True
         if u == n - 1:
             if ans == -1:
                 ans = c + p[v]
             else:
                 ans = min(ans, c + p[v])
-print(ans)
+if n == 1:
+    print(0)
+else:
+    print(ans)
