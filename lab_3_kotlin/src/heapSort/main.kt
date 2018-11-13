@@ -13,9 +13,9 @@ fun heappush(heap: ArrayList<Int>, q: Int) {
 }
 
 fun heappop(heap: ArrayList<Int>): Int {
-    var value = heap[0]
-    heap[0] = heap.last()
-    heap.remove(heap.lastIndex)
+    var value = heap[1]
+    heap[1] = heap.last()
+    heap.removeAt(heap.lastIndex)
     var i = 1
     var b = 0
     while (i * 2 < heap.size) {

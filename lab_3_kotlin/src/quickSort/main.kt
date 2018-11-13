@@ -7,7 +7,6 @@ fun sort(l: Int, r: Int) {
     if (r - l <= 1)
         return
     var key = line[rndm.nextInt(r - l) + l]
-    println(key)
     var ll = l
     var rr = r - 1
     while (ll <= rr) {
