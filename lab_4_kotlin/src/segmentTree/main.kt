@@ -1,6 +1,6 @@
 package segmentTree
 
-fun get_max_line(q: Int, p: Int): Pair<Int, Int> {
+fun getMaxLine(q: Int, p: Int): Pair<Int, Int> {
     var l = q + base
     var r = p + base
     var ans: Pair<Int, Int> = dp[l]
@@ -8,7 +8,7 @@ fun get_max_line(q: Int, p: Int): Pair<Int, Int> {
         if (dp[l].first > ans.first)
             ans = dp[l]
         else if (dp[l].first == ans.first)
-            ans = Pair(dp[q].first, Math.min(ans.second, dp[q].second))
+            ans = Pair(dp[l].first, Math.min(ans.second, dp[l].second))
         if (dp[r].first > ans.first)
             ans = dp[r]
         else if (dp[r].first == ans.first)
@@ -33,7 +33,6 @@ fun main(args: Array<String>) {
     var n = readLine()!!.toInt()
     var line = readLine()!!.split(" ").map { it.toInt() }
     base = Math.pow(2.0, Math.ceil(Math.log(n.toDouble()) / Math.log(2.0))).toInt()
-    print(base)
     dp = Array(base * 2 + 1) { Pair(0, 0) }
     for (i in 0 until base)
         if (i < n)
@@ -51,7 +50,7 @@ fun main(args: Array<String>) {
     var ans = ArrayList<String>()
     for (i in 0 until k) {
         var (l, r) = readLine()!!.split(" ").map { it.toInt() }
-        ans.add(get_max_line(l - 1, r - 1).second.toString())
+        ans.add(getMaxLine(l - 1, r - 1).second.toString())
     }
     print(ans.joinToString(" "))
 }

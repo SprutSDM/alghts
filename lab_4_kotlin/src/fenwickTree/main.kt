@@ -8,7 +8,7 @@ fun change(q: Int, ds: Int) {
     }
 }
 
-fun get_sum(q: Int): Int {
+fun getSum(q: Int): Int {
     var i = q
     var s = 0
     while (i != 0) {
@@ -24,11 +24,11 @@ lateinit var fv: Array<Int>
 fun main(args: Array<String>) {
     n = readLine()!!.toInt()
     var line = Array(n) {0}
-    var line_1 = readLine()!!.split(" ").map { it.toInt() }
+    var line1 = readLine()!!.split(" ").map { it.toInt() }
     fv = Array(n + 1) {0}
     for (i in 0 until n) {
-        change(i + 1, line_1[i])
-        line[i] = line_1[i]
+        change(i + 1, line1[i])
+        line[i] = line1[i]
     }
     var k = readLine()!!.toInt()
     for (i in 1 until k) {
@@ -36,7 +36,7 @@ fun main(args: Array<String>) {
         var q = _q.toInt()
         var p = _p.toInt()
         if (s == "s")
-            print("${get_sum(p) - get_sum(q - 1)} ")
+            print("${getSum(p) - getSum(q - 1)} ")
         else {
             change(q, p - line[q - 1])
             line[q - 1] = p
