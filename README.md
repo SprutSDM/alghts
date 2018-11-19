@@ -13,7 +13,9 @@ _Закоулов Илья, K3240_
 4. Дерево отрезков, дерево Фенвика. Условия:  
    [Левый максимум на подотрезке](https://informatics.msk.ru/moodle/mod/statements/view3.php?chapterid=3311)  
    [Суммы на подотрезках с изменением элемента](https://informatics.mccme.ru/moodle/mod/statements/view3.php?chapterid=3311&run_id=1739r25466#1)
-5. Алгоритмы на строках. Префикс функция. Условия:  
-   [Циклическая строка](https://informatics.msk.ru/moodle/mod/statements/view3.php?chapterid=101)
+5. Алгоритмы на строках. Префикс функция, хеширование, Z-функция. Условия:  
+   [Циклическая строка](https://informatics.msk.ru/moodle/mod/statements/view3.php?chapterid=101)  
+   [Поиск подстроки](https://informatics.mccme.ru/mod/statements/view3.php?id=241&chapterid=99)  
+   [Z-функция](https://informatics.mccme.ru/mod/statements/view3.php?id=241&chapterid=1324)
 
 Course - Курс OpenEdu от Университета ИТМО
