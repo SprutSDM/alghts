@@ -17,5 +17,7 @@ _Закоулов Илья, K3240_
    [Циклическая строка](https://informatics.msk.ru/moodle/mod/statements/view3.php?chapterid=101)  
    [Поиск подстроки](https://informatics.mccme.ru/mod/statements/view3.php?id=241&chapterid=99)  
    [Z-функция](https://informatics.mccme.ru/mod/statements/view3.php?id=241&chapterid=1324)
+6. Динамическое программирование. Условия:  
+   [ДП по профилю](https://codeforces.com/contest/1051/problem/D)
 
 Course - Курс OpenEdu от Университета ИТМО
