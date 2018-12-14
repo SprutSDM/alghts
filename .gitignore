@@ -1,4 +1,5 @@
 # Igonre IntelliJ IDEA files
+*/META-INF/
 */.idea/
 */out/
 *.iml
