@@ -1,0 +1,11 @@
+# Igonre IntelliJ IDEA files
+*/.idea/
+*/out/
+*.iml
+
+# Ignore Code Blocks files
+*/bin/
+*/obj/
+*.cbp
+*.depend
+*.layout
