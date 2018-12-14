@@ -12,12 +12,12 @@ _Закоулов Илья, K3240_
    [Heap Sort](https://informatics.mccme.ru/moodle/mod/statements/view3.php?chapterid=754)
 4. Дерево отрезков, дерево Фенвика. Условия:  
    [Левый максимум на подотрезке](https://informatics.msk.ru/moodle/mod/statements/view3.php?chapterid=3311)  
-   [Суммы на подотрезках с изменением элемента](https://informatics.mccme.ru/moodle/mod/statements/view3.php?chapterid=3311&run_id=1739r25466#1)
+   [Суммы на подотрезках с изменением элемента](https://informatics.mccme.ru/moodle/mod/statements/view3.php?chapterid=3317&run_id=1739r25469#1)
 5. Алгоритмы на строках. Префикс функция, хеширование, Z-функция. Условия:  
    [Циклическая строка](https://informatics.msk.ru/moodle/mod/statements/view3.php?chapterid=101)  
    [Поиск подстроки](https://informatics.mccme.ru/mod/statements/view3.php?id=241&chapterid=99)  
    [Z-функция](https://informatics.mccme.ru/mod/statements/view3.php?id=241&chapterid=1324)
-6. Динамическое программирование. Условия:  
+6*. Динамическое программирование. Условие:  
    [ДП по профилю](https://codeforces.com/contest/1051/problem/D)
 
 Course - Курс OpenEdu от Университета ИТМО
